@@ -159,6 +159,52 @@ export const projects = [
     icon: <FaDatabase size={24} className="text-accent-1" />,
     image: "/Shopsphere.png",
   },
+  {
+    title: "DJSCE Campus Placement Portal",
+    tech: [
+      "Django",
+      "TypeScript",
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Cloudinary"
+    ],
+    description: [
+      <>
+        Built a{" "}
+        <span className="text-text-primary font-medium">
+          full-stack campus placement management system
+        </span>{" "}
+        connecting students, recruiters, and placement coordinators on a unified platform, streamlining the end-to-end recruitment workflow.
+      </>,
+      <>
+        Developed role-based dashboards enabling{" "}
+        <span className="text-text-primary font-medium">
+          student profile management, job applications, and recruiter job postings with application tracking
+        </span>
+        , improving efficiency and transparency in the placement process.
+      </>,
+      <>
+        Implemented an{" "}
+        <span className="text-text-primary font-medium">
+          AI-powered Applicant Tracking System (ATS)
+        </span>{" "}
+        using Python, Pandas, and NumPy to analyze resumes and rank candidates, generating top matches based on job descriptions.
+      </>,
+      <>
+        Designed a{" "}
+        <span className="text-text-primary font-medium">
+          centralized analytics and reporting system
+        </span>{" "}
+        for coordinators to monitor applications, manage data, and extract actionable insights.
+      </>,
+    ],
+    date: "March 2026 – Present",
+    githubLink: "https://github.com/nishishah01/djsce-campus-placement-portal.git",
+    category: "Full Stack / AI",
+    icon: <FaDatabase size={24} className="text-accent-1" />,
+    image: "/placement.png",
+  }
 ];
 
 export const skills = {

@@ -34,7 +34,7 @@ const Experience = () => {
                 } items-start md:items-center`}
               >
                 {/* Timeline Dot */}
-                <div className="absolute left-4 md:left-1/2 w-4 h-4 bg-primary-bg border-2 border-accent-1 rounded-full -translate-x-[calc(50%-0.5px)] z-10 shadow-[0_0_10px_rgba(0,245,195,0.8)]"></div>
+                <div className="absolute left-4 top-1.5 md:top-1/2 md:left-1/2 w-4 h-4 bg-primary-bg border-2 border-accent-1 rounded-full -translate-x-[calc(50%-0.5px)] md:-translate-y-1/2 z-10 shadow-[0_0_10px_rgba(0,245,195,0.8)]"></div>
 
                 {/* Date (Opposite side) */}
                 <div

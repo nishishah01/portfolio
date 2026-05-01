@@ -87,7 +87,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="h-20 sm:h-24 md:h-28" // Fixed height to prevent layout shift
+          className="min-h-[100px] sm:min-h-[120px] md:min-h-[112px]" // Min height to prevent layout shift but allow wrap
         >
           <h2 className="text-3xl sm:text-5xl md:text-6xl font-bold text-text-secondary mb-8">
             I{" "}
